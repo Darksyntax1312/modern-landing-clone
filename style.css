@@ -1,5 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #F9F7F4;
+}
+
+.A {
+    height: 110vh;
+    background-color: pink;
 }
 
 .top {
@@ -13,12 +23,17 @@ body {
 }
 
 .top>div:first-child {
-    font-size: 25px;
+    /* font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-family: "Quintessential", serif;
     font-weight: 400;
+    font-style: normal; */
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
+    font-size: 20px;
 }
 
 
@@ -81,6 +96,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 28px;
     justify-content: center;
+
 }
 
 
@@ -186,4 +202,121 @@ div img {
 
 .paired-buttons>div:first-child:hover {
     background-color: #e9793d;
+}
+
+/* warning middle part ends here */
+
+.B {
+    height: 25vh;
+    flex-direction: column;
+    background-color: yellow;
+
+}
+
+.seperation-2 {
+    height: 0.5px;
+    background-color: rgb(193, 187, 187);
+    width: 99.5%;
+    /* position: relative; */
+}
+
+.companies-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    padding-top: 12vh;
+}
+
+.companies-name>div:first-child {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    color: #6B6860;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.companies-name>div:nth-child(2) {
+    display: flex;
+    gap: 40px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(26, 26, 24, 0.12);
+}
+
+.seperation-3 {
+    height: 0.5px;
+    background-color: rgb(193, 187, 187);
+    width: 99.5%;
+}
+
+
+
+
+/* Warning : fourth phase is starting here */
+
+
+
+
+
+.C {
+    height: 80vh;
+}
+
+
+
+
+.flex>div:first-child {
+    font-size: 11px;
+    color:#C4622D;
+    letter-spacing:1.1px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    /* padding: 3px 10px; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 450px;
+    /* padding:3px 30px; */
+    /* background-color: red; */
+    background: #F2E0D4;
+    border-radius: 10px;
+    display: inline;
+}
+
+.flex>div:nth-child(2) {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    padding-top:20px;
+}
+
+.flex>div:nth-child(3){
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color:#6B6860;
+}
+.flex>div:nth-child(3)>div:first-child{
+    padding-top:20px;
+}
+.flex>div:nth-child(3)>div:nth-child(2){
+    padding-top:7px;
+}
+.chintu{
+    display:flex;
+    justify-content:flex-start;
+    width:70vw;
+    margin:auto;
+    padding-top:12vh;
 }
