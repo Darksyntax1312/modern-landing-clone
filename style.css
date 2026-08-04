@@ -5,6 +5,8 @@
 
 body {
     background-color: #F9F7F4;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 .A {
@@ -268,7 +270,8 @@ div img {
 
 
 .C {
-    height: 80vh;
+    height: 140vh;
+    background-color:green;
 }
 
 
@@ -276,8 +279,8 @@ div img {
 
 .flex>div:first-child {
     font-size: 11px;
-    color:#C4622D;
-    letter-spacing:1.1px;
+    color: #C4622D;
+    letter-spacing: 1.1px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -299,24 +302,93 @@ div img {
     font-weight: 700;
     font-style: normal;
     font-size: 48px;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
-.flex>div:nth-child(3){
+.flex>div:nth-child(3) {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    color:#6B6860;
+    color: #6B6860;
 }
-.flex>div:nth-child(3)>div:first-child{
-    padding-top:20px;
+
+.flex>div:nth-child(3)>div:first-child {
+    padding-top: 20px;
 }
-.flex>div:nth-child(3)>div:nth-child(2){
-    padding-top:7px;
+
+.flex>div:nth-child(3)>div:nth-child(2) {
+    padding-top: 7px;
 }
-.chintu{
+
+.chintu {
+    display: flex;
+    justify-content: flex-start;
+    /* width: 70vw; */
+    width: 1033.2px;
+    margin: auto;
+    padding-top: 12vh;
+}
+
+
+/* Warning grid is activating from here  */
+
+
+.grid-2 {
+    display: grid;
+    border: 2px solid rgba(26, 26, 24, 0.12);
+    background-color:white;
+    border-radius: 14px;
+    /* gap: 10px; */
+    width: 1033.2px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.whole-grid-2 {
+    padding-top: 8vh;
+}
+
+
+
+.candy>div:first-child {
+    display: flex;
+    background-color: #F2E0D4;
+    color: #C4622D;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.candy>div:nth-child(2){
+    font-size:17px;
+    font-weight:600;
+    padding-top:10px;
+}
+
+
+.candy>div:nth-child(3) {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #6B6860;
+    line-height: 1.6;
+    padding-top:10px;
+    font-size:14px;
+    /* display:flex;
+    flex-direction:column;
+    flex-wrap:wrap; */
+}
+
+.candy-items{
     display:flex;
-    justify-content:flex-start;
-    width:70vw;
-    margin:auto;
-    padding-top:12vh;
+    padding:30px;
+    /* background-color:yellow; */
+}
+
+.candy-items:hover{
+    background-color: #F2E0D4;
 }
