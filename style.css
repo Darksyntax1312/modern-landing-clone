@@ -452,7 +452,7 @@ div img {
 
 
 .E {
-    height: 80vh;
+    /* height: 100vh; */
     background-color: red;
     /* padding-bottom:10vh; */
 }
@@ -516,7 +516,7 @@ div img {
     width: 1040px;
     margin: auto;
     padding-top: 8vh;
-    /* padding-bottom:15vh; */
+    padding-bottom: 15vh;
 }
 
 .review-container-items {
@@ -576,11 +576,191 @@ div img {
     color: #6B6860;
 }
 
+
+
+
 /* Warning section F starting here  */
 
 
+
+
+
+
 .F {
-    height: 130vh;
+    /* height: 130vh; */
     background-color: #1A1A18;
     color: #F9F7F4;
+}
+
+.pricing {
+    width: 1040px;
+    margin: auto;
+    padding-top:11vh;
+}
+
+
+.pricing-item-1-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pricing-item-1-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+}
+
+.pricing-item-1-container>div:first-child {
+    font-size: 11px;
+    color: #C4622D;
+    letter-spacing: 1.1px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    /* padding: 3px 10px; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    /* padding-right: 450px; */
+    padding-right: 384px;
+    /* padding:3px 30px; */
+    /* background-color: red; */
+    background: #F2E0D4;
+    border-radius: 10px;
+    display: inline;
+}
+
+.pricing-item-1-container>h2:nth-child(2) {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 1.12;
+}
+
+.pricing-item-1-container>p:nth-child(3) {
+    font-size: 16px;
+    color: #F9F7F499;
+}
+
+
+/* Warning pricing card flexboxes starts here  */
+
+
+li::before {
+    content: "\2713";
+    color: #C4622D;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.pricing-item-2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 70vw; */
+    margin: auto;
+    gap: 20px;
+padding-top:10vh;
+
+padding-bottom: 5vh;
+
+}
+
+.pricing-card {
+    display: flex;
+    /* border:3px solid red; */
+    border: 1px solid #ffffff1f;
+    border-radius: 12px;
+    transition: border-color 2s;
+    /* padding:28px; */
+    padding: 40px;
+    flex-direction: column;
+    gap: 24px;
+
+
+
+    width:250px;
+}
+
+.subscription-price {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.subscription-price>div:first-child {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.subscription-price>div:nth-child(2) {
+    font-size: 14px;
+    color: #f9f7f480;
+}
+
+.inner-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.inner-items>div:first-child {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: #f9f7f480;
+}
+
+.unordered {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 24px;
+}
+
+
+.custom-price>div:nth-child(2){
+       font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+button{
+    width:100%;
+    background-color:red;
+    border:1px solid #ffffff33;
+    font-size:14px;
+    padding:14px;
+    border-radius:6px;
+    font-weight:600;
+    color:#F9F7F4;
+    background-color:#1A1A18;
+}
+
+
+
+.btn1{
+    padding-top:40px;
+}
+.btn2{
+    padding-top:2px;
+}
+.btn3{
+    padding-top:3px;;
 }
