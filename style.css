@@ -11,8 +11,6 @@ body {
 
 .A {
     padding-bottom: 10vh;
-    /* height:calc(114vh + 8vh); */
-    background-color: pink;
 }
 
 
@@ -23,7 +21,6 @@ body {
     width: 70vw;
     margin: auto;
     height: 8vh;
-    /* height:20vh; */
     position: relative;
 }
 
@@ -206,10 +203,7 @@ div img {
 /* warning middle part ends here */
 
 .B {
-    /* height: 25vh; */
     height: 30vh;
-    /* flex-direction: column; */
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,7 +214,6 @@ div img {
     height: 0.5px;
     background-color: rgb(193, 187, 187);
     width: 99.5%;
-    /* position: relative; */
 }
 
 .companies-name {
@@ -231,7 +224,6 @@ div img {
     justify-content: space-between;
     width: 70vw;
     margin: auto;
-    /* padding-top: 12vh; */
 }
 
 .companies-name>div:first-child {
@@ -271,9 +263,7 @@ div img {
 
 
 .C {
-    /* height: 125vh; */
     padding-bottom: 10vh;
-    background-color: green;
 }
 
 
@@ -286,13 +276,10 @@ div img {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    /* padding: 3px 10px; */
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 450px;
-    /* padding:3px 30px; */
-    /* background-color: red; */
     background: #F2E0D4;
     border-radius: 10px;
     display: inline;
@@ -324,7 +311,6 @@ div img {
 .chintu {
     display: flex;
     justify-content: flex-start;
-    /* width: 70vw; */
     width: 1033.2px;
     margin: auto;
     padding-top: 12vh;
@@ -340,7 +326,6 @@ div img {
     border: 2px solid rgba(26, 26, 24, 0.12);
     background-color: white;
     border-radius: 14px;
-    /* gap: 10px; */
     width: 1033.2px;
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
@@ -381,15 +366,11 @@ div img {
     line-height: 1.6;
     padding-top: 10px;
     font-size: 14px;
-    /* display:flex;
-    flex-direction:column;
-    flex-wrap:wrap; */
 }
 
 .candy-items {
     display: flex;
     padding: 30px;
-    /* background-color:yellow; */
 }
 
 .candy-items:hover {
@@ -403,11 +384,8 @@ div img {
 
 
 .D {
-    /* height:40vh; */
     padding-block: 100px;
-    /* background-color: #1A1A18; */
-    background-color: blue;
-    /* background-color:beige; */
+    background-color: #1A1A18;
 }
 
 
@@ -451,17 +429,9 @@ div img {
 
 
 
-.E {
-    /* height: 100vh; */
-    background-color: red;
-    /* padding-bottom:10vh; */
-}
-
-
 .section-E-item-1 {
     display: flex;
     flex-direction: column;
-    /* max-width:400px; */
     max-width: 560px;
 }
 
@@ -472,14 +442,10 @@ div img {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    /* padding: 3px 10px; */
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 10px;
-    /* padding-right: 450px; */
     padding-right: 384px;
-    /* padding:3px 30px; */
-    /* background-color: red; */
     background: #F2E0D4;
     border-radius: 10px;
     display: inline;
@@ -496,13 +462,10 @@ div img {
     padding-top: 10px;
 }
 
-/* width:70vw */
 
 .review-container {
     display: flex;
     flex-direction: row;
-    /* width: 70vw; */
-    /* margin: auto; */
     justify-content: space-around;
     gap: 10px;
     padding-top: 7vh;
@@ -587,7 +550,6 @@ div img {
 
 
 .F {
-    /* height: 130vh; */
     background-color: #1A1A18;
     color: #F9F7F4;
 }
@@ -595,7 +557,8 @@ div img {
 .pricing {
     width: 1040px;
     margin: auto;
-    padding-top:11vh;
+    padding-top: 11vh;
+    padding-bottom: 8vh;
 }
 
 
@@ -618,14 +581,10 @@ div img {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    /* padding: 3px 10px; */
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 10px;
-    /* padding-right: 450px; */
     padding-right: 384px;
-    /* padding:3px 30px; */
-    /* background-color: red; */
     background: #F2E0D4;
     border-radius: 10px;
     display: inline;
@@ -649,12 +608,12 @@ div img {
 /* Warning pricing card flexboxes starts here  */
 
 
-li::before {
+.unordered li::before {
     content: "\2713";
     color: #C4622D;
 }
 
-li {
+.unordered li {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -666,29 +625,27 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* width: 70vw; */
     margin: auto;
     gap: 20px;
-padding-top:10vh;
-
-padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
 
 }
 
 .pricing-card {
     display: flex;
-    /* border:3px solid red; */
     border: 1px solid #ffffff1f;
     border-radius: 12px;
-    transition: border-color 2s;
-    /* padding:28px; */
+    transition: border-color 0.5s ease;
     padding: 40px;
     flex-direction: column;
     gap: 24px;
+    width: 250px;
+}
 
 
-
-    width:250px;
+.pricing-card:hover {
+    border-color: #C4622D;
 }
 
 .subscription-price {
@@ -733,34 +690,208 @@ padding-bottom: 5vh;
 }
 
 
-.custom-price>div:nth-child(2){
-       font-family: "Playfair Display", serif;
+.custom-price>div:nth-child(2) {
+    font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-size: 48px;
 }
 
-button{
-    width:100%;
-    background-color:red;
-    border:1px solid #ffffff33;
-    font-size:14px;
-    padding:14px;
+button {
+    width: 100%;
+    background-color: red;
+    border: 1px solid #ffffff33;
+    font-size: 14px;
+    padding: 14px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #F9F7F4;
+    background-color: #1A1A18;
+    transition: background-color 0.3s ease, border-color 0.5s ease;
+}
+
+
+
+.btn1 {
+    padding-top: 40px;
+}
+
+.btn2 {
+    padding-top: 2px;
+}
+
+.btn3 {
+    padding-top: 3px;
+    ;
+}
+
+
+
+.pricing-card:hover {
+    background-color: #c4622d14;
+}
+
+button:hover {
+    background-color: #C4622D;
+    border-color: #C4622D;
+}
+
+
+
+
+/* Warning Section G starting from here  */
+
+
+
+
+
+.G {
+    padding-block: 120px;
+}
+
+
+
+
+
+.Start-now {
+    color: white;
+    background-color: #C4622D;
+    padding: 77.04px;
+    border-radius: 16px;
+width:872px;
+margin:auto;
+}
+
+
+.Start-now-content{
+    display:flex;
+    gap:2vw;
+    flex-direction:row;
+    align-items:center;
+}
+
+.Start-now-content-1{
+    display:flex;
+    flex-direction:column;
+    width:705px;
+}
+
+
+
+.Start-now-content-1>h2:first-child {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.Start-now-content-1>p:nth-child(2){
+    font-size:16px;
+    color:#ffffffbf;
+    margin-top:12px;
+}
+
+
+a{
+    font-size:20px;
+    color:#C4622D;
+    text-decoration:none;
+    background-color:white;
     border-radius:6px;
+    font-size:15px;
+    /* padding:16px ; */
+    padding:17px 24px;
+    /* padding:10px 10px; */
     font-weight:600;
-    color:#F9F7F4;
-    background-color:#1A1A18;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:113px;
 }
 
 
+.bottom{
+    height:50vh;
+}
 
-.btn1{
-    padding-top:40px;
+
+/* Warning section H is starting from here  */
+
+
+.H{
+    /* height:40vh; */
+    padding-top:60px;
+    padding-bottom:5vh;
 }
-.btn2{
-    padding-top:2px;
+
+.features{
+    display:grid;
+    gap:40px;
+    width:1040px;
+    margin:auto;
+    /* background-color:lightblue; */
+    grid-template-columns:2fr 1fr 1fr 1fr;
 }
-.btn3{
-    padding-top:3px;;
+
+.features ul {
+    list-style-type:none;
+}
+
+
+.features>div:first-child>div:first-child>div:first-child{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.features>div:first-child>div:first-child>div:nth-child(2){
+font-size:14px;
+color:#6B6860;
+line-height:1.6;
+
+}
+
+.Heading-of-list{
+    color:#1A1A18;
+    font-size:14px;
+    font-weight:600;
+
+}
+
+.same-li-items{
+color:#6B6860;
+font-size:14px;
+padding-top:22px;
+/* font-family: "Inter", sans-serif; */
+}
+
+
+.first-grid-card>div:nth-child(2){
+    display:flex;
+    flex-direction:column;
+    padding-top:12px;
+}
+
+.seperation-4{
+    height: 0.5px;
+    background-color: rgb(193, 187, 187);
+    width: 99%;
+}
+
+.I{
+    padding-top:5vh;
+padding-bottom:5vh;
+    font-size:13px;
+    color:#6B6860;
+}
+
+.Footer-last{
+    display:flex;
+    width:1040px;
+    margin:auto;
+    justify-content:space-between;
 }
